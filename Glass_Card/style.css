@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url("https://images.unsplash.com/photo-1542332213-31f87348057f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  font-size: 14px;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: overlay;
+  font-weight: bolder;
+}
+.container,
+.container::before,
+.container::after {
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.2);
+  /* backdrop-filter: blur(5px); */
+  box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.08);
+}
+.container {
+  position: relative;
+  padding: 2.5rem;
+  width: 100%;
+  max-width: 300px;
+}
+.container .img {
+  width: 100%;
+  border-radius: 7px;
+}
+.container .text {
+  font-size: 1.1rem;
+  color: #ddd;
+  margin: 2em 0;
+  text-align: justify;
+}
+.container .btn {
+  display: block;
+  margin: auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.02rem;
+  width: 80%;
+  max-width: 200px;
+  padding: 0.6rem;
+  background-color: transparent;
+  border: 1px solid #ffdd00;
+  border-radius: 5px;
+  color: #ffdd00;
+  cursor: pointer;
+}
+.container .btn:hover {
+  background-color: #ffdd00;
+  color: #333;
+}
+.container::before,
+.container::after {
+  content: "";
+  position: absolute;
+}
+.container::before {
+  height: 80px;
+  width: 80px;
+  top: -10px;
+  left: -50px;
+  /* z-index: -1; */
+}
+.container::after {
+  height: 60px;
+  width: 60px;
+  bottom: -20px;
+  right: -20px;
+  /* z-index: 2; */
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe | Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <a href="#welcome-section">GV</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#welcome-section">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a id="profile-link" href="https://github.com/yourusername" target="_blank">GitHub <i class="fab fa-github"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="welcome-section">
+        <div class="welcome-content">
+            <h1>Hello, I'm GOWTHAM</h1>
+            <p>Full-Stack Web Developer</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary-btn">View My Work</a>
+                <a href="#contact" class="btn secondary-btn">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <div class="section-header">
+            <h2>My Recent Projects</h2>
+            <p>Here are some of my recent work</p>
+        </div>
+        <div class="projects-grid">
+            <div class="project-tile">
+                <a href="https://example.com/project1" target="_blank">
+                    <img src="https://images.pexels.com/photos/3944405/pexels-photo-3944405.jpeg?auto=compress&cs=tinysrgb&w=800" alt="E-Commerce Website">
+                    <div class="project-details">
+                        <h3>E-Commerce Website</h3>
+                        <p>A full-featured online store with cart functionality</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="project-tile">
+                <a href="https://example.com/project2" target="_blank">
+                    <img src="https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/8b934f7ddd08f5d149bdc2139728672f8898546c" alt="Weather App">
+                    <div class="project-details">
+                        <h3>Weather App</h3>
+                        <p>Real-time weather forecasts using API integration</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>API</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="project-tile">
+                <a href="https://example.com/project3" target="_blank">
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/8171b047760961.58844c1f95474.jpg" alt="Task Manager">
+                    <div class="project-details">
+                        <h3>Task Manager</h3>
+                        <p>A productivity app with drag-and-drop functionality</p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>Firebase</span>
+                            <span>SCSS</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="project-tile">
+                <a href="https://example.com/project4" target="_blank">
+                    <img src="https://images.pexels.com/photos/3937174/pexels-photo-3937174.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Blog Platform">
+                    <div class="project-details">
+                        <h3>Blog Platform</h3>
+                        <p>A content management system for bloggers</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="section-footer">
+            <a href="https://github.com/yourusername" target="_blank" class="btn primary-btn">See More on GitHub <i class="fab fa-github"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <p>Get to know me better</p>
+        </div>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="/api/placeholder/400/400" alt="John Doe">
+            </div>
+            <div class="about-text">
+                <h3>Who am I?</h3>
+                <p>I'm a passionate web developer based in New York with over 5 years of experience creating modern, responsive websites and applications.</p>
+                <p>My journey in web development started when I built my first website for a local business. Since then, I've worked with various technologies and frameworks to deliver high-quality digital solutions.</p>
+                <h3>My Skills</h3>
+                <div class="skills-container">
+                    <div class="skill">HTML5 & CSS3</div>
+                    <div class="skill">JavaScript (ES6+)</div>
+                    <div class="skill">React</div>
+                    <div class="skill">Node.js</div>
+                    <div class="skill">MongoDB</div>
+                    <div class="skill">Git & GitHub</div>
+                    <div class="skill">Responsive Design</div>
+                    <div class="skill">UI/UX Principles</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="section-header">
+            <h2>Get In Touch</h2>
+            <p>Let's work together on your next project</p>
+        </div>
+        <div class="contact-content">
+            <div class="contact-methods">
+                <div class="contact-method">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>hello@johndoe.com</p>
+                </div>
+                <div class="contact-method">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p>+1 (123) 456-7890</p>
+                </div>
+                <div class="contact-method">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>New York, NY</p>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com/yourusername" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 John Doe. All rights reserved.</p>
+        <p>Designed and built with <i class="fas fa-heart"></i> by John Doe</p>
+    </footer>
+</body>
+</html>

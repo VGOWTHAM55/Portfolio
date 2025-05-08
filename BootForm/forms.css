@@ -1,0 +1,25 @@
+body {
+  background-color: #adb5bd;
+}
+h2 {
+  background-color: #fff;
+  margin: 0px  26% ;
+  padding: 7px  ;
+  border-style: solid ;
+  border-radius: 7em;
+}
+hr {
+  border-top: 5px double whitesmoke;
+  color: #000;
+  overflow: visible;
+  text-align: center;
+  height: px;
+}
+
+hr::after {
+  background: #fff;
+  content: "§";
+  /* padding: 1 4px; */
+  position: relative;
+  /* top: -13px; */
+}
